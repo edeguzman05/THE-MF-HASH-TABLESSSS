@@ -42,7 +42,7 @@ namespace CPSC131::MyHashTable
 			 */
 			MyHashTable(size_t capacity = MyHashTable::DEFAULT_CAPACITY)
 			{
-				
+				setCapacity(capacity);
 			}
 			
 			/**
